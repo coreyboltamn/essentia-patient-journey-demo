@@ -1,17 +1,21 @@
-# essentia-patient-journey-language-access-presenter
+# Essentia Patient Journey Demo
 
-Presenter copy of the Essentia + AMN patient journey language access microsite.
+Static demo copy of the Essentia + AMN patient journey language access microsite,
+copied from
+[`coreyboltamn/essentia-patient-journey-language-access-presenter`](https://github.com/coreyboltamn/essentia-patient-journey-language-access-presenter).
 Baseline copied from
 [`coreyboltamn/essentia-patient-journey-language-access` at `2f12f2a`](https://github.com/coreyboltamn/essentia-patient-journey-language-access/commit/2f12f2a325f9232ba30b65f3e2db11802cce7a95).
 All four personas, seven stages, solution mappings, descriptions and badge wording
-are retained. Changes and deployment belong to this presenter repository only;
-the original repository and its Pages settings are not changed.
+are retained. This demo repository is separate from the source repository.
 
-## Presenter deployment
+## GitHub Pages deployment
 
-If GitHub Pages is enabled for this repository, its expected URL is
-https://coreyboltamn.github.io/essentia-patient-journey-language-access-presenter/.
-Deployment is not configured or verified by this change.
+The site files, including `index.html`, are at the repository root and use
+relative asset paths. Configure GitHub Pages to deploy from the default branch
+root (`/(root)`). The expected project-pages URL is
+https://coreyboltamn.github.io/essentia-patient-journey-demo/.
+This repository change does not configure or verify the GitHub Pages setting or
+deployment.
 
 ## Screen-sharing presentations
 
@@ -85,7 +89,7 @@ nonclinical AI safeguards. There is no build step.
 Repeat the browser checks below when changing the journey controls.
 
 No live technology integration is added. Publishing this copy requires deploying
-this presenter repository, not the original site.
+this demo repository, not the source site.
 
 ### Presenter validation
 
@@ -280,7 +284,7 @@ Only the timeline intentionally scrolls sideways.
 
 This is a static HTML/CSS/JavaScript site using Node's built-in test runner,
 with no build dependencies. Serve the repository with a static server and check
-under `/essentia-patient-journey-language-access-presenter/`, not just at `/`.
+under `/essentia-patient-journey-demo/`, not just at `/`.
 To repeat the checks in a browser:
 
 1. Check 1366×768 and 1440×900 laptops, plus widths 768, 375 and 320 pixels.
